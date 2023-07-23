@@ -24,11 +24,12 @@
     <title>Drinks Shop</title>
 </head>
 <body class="font-manrope">
-    <header class="max-w-screen-xl">
+    <!-- Banner Section -->
+    <header class="max-w-screen-xl mx-auto">
         <div class="hero mt-16 ">
             <div class="hero-content flex-col lg:flex-row lg:gap-20">
               <div>
-                <h1 class="text-6xl font-extrabold text-[#1C1C1C]
+                <h1 class="text-4xl lg:text-6xl font-extrabold text-[#1C1C1C]
                 ">It's good  <br>
                     tea time at The <br> Tea House</h1>
                 <p class="py-6 text-base text-[#777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
@@ -37,8 +38,8 @@
                 </button>
               </div>
               <div class="">
-                <img src="/images/banner.png" class="max-w-sm rounded-lg " />
-                <div class="flex items-center gap-4 drop-shadow-lg p-5 w-60 rounded-lg bg-white  -mt-20 lg:-ml-11 ">
+                <img class="" src="/images/banner.png" class="max-w-sm rounded-lg " />
+                <div class="flex items-center gap-4 drop-shadow-lg p-5 lg:w-72 rounded-lg bg-white -mt-12 md:-mt-24 lg:-mt-32 lg:ml-10  ">
                     <i class="fa-solid fa-star text-amber-500 text-3xl"></i>
                     <div class="">
                      <p class="text-2xl text-[#1C1C1C] font-extrabold">5.00</p>
@@ -50,7 +51,71 @@
           </div>
     </header>
 
+    <main class="max-w-screen-xl mx-auto">
+        <!-- Featured Section -->
+        <section class="mt-20 text-center">
+            <h2 class="text-4xl font-extrabold text-[#1C1C1C]">Our Featured Products</h2>
+            <p class="mt-4 font-medium text-base text-[#777] lg:max-w-3xl mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="p-5 lg:p-10 mt-12 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
+                <!-- First Item  -->
+                <div class="card bg-gradient-to-r from-gray-300 to-white-300 text-white   shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/tea-1.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-2xl text-[#1C1C1C] font-extrabold">Milk Tea</h2>
+                      <p class="text-[#777] text-base font-medium">Creamer could be replaced by fresh milk</p>
+                      <div class="card-actions">
+                        <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white ">Price : $10</button>
+                      </div>
+                    </div>
+                  </div>
 
-    <main class="max-w-screen-xl"></main>
+                  <!-- Second Item -->
+                  <div class="card bg-gradient-to-r from-gray-300 to-white-300 text-white   shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/tea-2.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-2xl text-[#1C1C1C] font-extrabold">Black Tea</h2>
+                      <p class="text-[#777] text-base font-medium">Creamer could be replaced by fresh milk</p>
+                      <div class="card-actions">
+                        <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white ">Price : $5</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Third Item -->
+                  <div class="card bg-gradient-to-r from-gray-300 to-white-300 text-white   shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/tea-3.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-2xl text-[#1C1C1C] font-extrabold">Lemon Tea</h2>
+                      <p class="text-[#777] text-base font-medium">Creamer could be replaced by fresh milk</p>
+                      <div class="card-actions">
+                        <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white ">Price : $6</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Fourth Item -->
+                  <div class="card bg-gradient-to-r from-gray-300 to-white-300 text-white   shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="/images/tea-4.png" alt="" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-2xl text-[#1C1C1C] font-extrabold">Green Tea</h2>
+                      <p class="text-[#777] text-base font-medium">Creamer could be replaced by fresh milk</p>
+                      <div class="card-actions">
+                        <button class="btn bg-gradient-to-r from-orange-500 to-red-500 text-white ">Price : $7</button>
+                      </div>
+                    </div>
+                  </div>
+        
+            </div>
+        </section>
+        
+    </main>
 </body>
 </html>
